@@ -12,7 +12,6 @@ public class Main {
     public static void main(String[] args) { 
         Mobil diaz = new Mobil("Honda", "Brio", 2024, "Coklat");
         diaz.displayInfo();
-        diaz.startEngine();
         
         diaz.setWarna("Putih");
         
