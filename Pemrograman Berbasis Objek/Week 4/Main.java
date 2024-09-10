@@ -19,10 +19,5 @@ public class Main {
         
         System.out.println("\nInformasi Pekerja Setelah Nama Diubah : ");
         System.out.println(worker.toString());
-        
-        
-        System.out.println(worker.nama);  // Tidak bisa diakses karena private
-        System.out.println(worker.usia);  // Bisa diakses karena protected
-        System.out.println(worker.gaji);  // Tidak bisa diakses karena private
     } 
 }
